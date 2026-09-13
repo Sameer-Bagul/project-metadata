@@ -1,0 +1,48 @@
+{
+  "_id": "create-e2e-saas-001",
+  "title": "create-e2e-saas",
+  "slug": "create-e2e-saas",
+  "shortDescription": "NPM CLI that scaffolds a MERN authentication starter with JWT, OTP, and email verification flows.",
+  "description": "create-e2e-saas is an npm CLI package that bootstraps a full-stack authentication baseline with client/server templates. It packages a reusable starter with Node tooling and templates for rapid SaaS or hackathon setup.",
+  "category": "my-tools",
+  "isFeatured": true,
+  "status": "In Production",
+  "role": "Developer",
+  "classification": "portfolio-worthy",
+  "repository": {
+    "name": "create-e2e-saas",
+    "githubUrl": "https://github.com/Sameer-Bagul/create-e2e-saas",
+    "isFork": false,
+    "isArchived": false,
+    "stars": 1,
+    "forks": 0,
+    "primaryLanguage": "JavaScript",
+    "activity": "Updated 2026-07-21",
+    "complexity": "High",
+    "portfolioWorthiness": "High"
+  },
+  "techStackBreakdown": {
+    "frontend": ["React", "Vite", "Tailwind CSS"],
+    "backend": ["Node.js", "Express.js"],
+    "infrastructure": [],
+    "database": ["MongoDB", "Mongoose"],
+    "aiMl": [],
+    "devops": [],
+    "testing": [],
+    "tools": ["npm", "Chalk", "Ora"]
+  },
+  "myContributions": [
+    "Built and published a reusable CLI scaffold workflow for full-stack authentication apps.",
+    "Created starter templates for frontend and backend auth modules.",
+    "Documented onboarding and configuration flows for rapid setup."
+  ],
+  "githubUrl": "https://github.com/Sameer-Bagul/create-e2e-saas",
+  "liveUrl": "",
+  "apiDocsUrl": "",
+  "metadata": {
+    "createdAt": "2026-09-13T10:06:47Z",
+    "updatedAt": "2026-09-13T10:06:47Z",
+    "version": "1.0.0",
+    "schemaVersion": "1.0.0"
+  }
+}

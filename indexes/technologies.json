@@ -1,50 +1,286 @@
 {
   "frontend": [
     {
-      "name": "React 18",
-      "count": 1,
-      "projectSlugs": ["portfolio-cms-admin"]
+      "name": "Next.js",
+      "count": 2,
+      "projectSlugs": [
+        "event-management-application",
+        "wcareer"
+      ]
     },
     {
-      "name": "TypeScript",
-      "count": 1,
-      "projectSlugs": ["portfolio-cms-admin"]
-    },
-    {
-      "name": "Vite",
-      "count": 1,
-      "projectSlugs": ["portfolio-cms-admin"]
+      "name": "React",
+      "count": 5,
+      "projectSlugs": [
+        "athena-end-to-end-ai-agent",
+        "create-e2e-saas",
+        "event-management-application",
+        "noteforge-ai",
+        "wcareer"
+      ]
     },
     {
       "name": "Tailwind CSS",
+      "count": 4,
+      "projectSlugs": [
+        "create-e2e-saas",
+        "event-management-application",
+        "noteforge-ai",
+        "wcareer"
+      ]
+    },
+    {
+      "name": "Three.js",
       "count": 1,
-      "projectSlugs": ["portfolio-cms-admin"]
+      "projectSlugs": [
+        "athena-end-to-end-ai-agent"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "count": 3,
+      "projectSlugs": [
+        "athena-end-to-end-ai-agent",
+        "event-management-application",
+        "noteforge-ai"
+      ]
+    },
+    {
+      "name": "Vite",
+      "count": 4,
+      "projectSlugs": [
+        "athena-end-to-end-ai-agent",
+        "create-e2e-saas",
+        "noteforge-ai",
+        "wcareer"
+      ]
     }
   ],
   "backend": [
     {
-      "name": "Node.js",
-      "count": 1,
-      "projectSlugs": ["portfolio-cms-admin"]
+      "name": "Express.js",
+      "count": 3,
+      "projectSlugs": [
+        "create-e2e-saas",
+        "noteforge-ai",
+        "wcareer"
+      ]
     },
     {
-      "name": "Express.js",
+      "name": "FastAPI",
       "count": 1,
-      "projectSlugs": ["portfolio-cms-admin"]
+      "projectSlugs": [
+        "wcareer"
+      ]
+    },
+    {
+      "name": "LangChain",
+      "count": 1,
+      "projectSlugs": [
+        "athena-end-to-end-ai-agent"
+      ]
+    },
+    {
+      "name": "LangGraph",
+      "count": 1,
+      "projectSlugs": [
+        "athena-end-to-end-ai-agent"
+      ]
+    },
+    {
+      "name": "Next.js Server Actions",
+      "count": 1,
+      "projectSlugs": [
+        "event-management-application"
+      ]
+    },
+    {
+      "name": "Node.js",
+      "count": 5,
+      "projectSlugs": [
+        "athena-end-to-end-ai-agent",
+        "create-e2e-saas",
+        "event-management-application",
+        "noteforge-ai",
+        "wcareer"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "count": 1,
+      "projectSlugs": [
+        "noteforge-ai"
+      ]
     }
   ],
   "database": [
     {
-      "name": "MongoDB Atlas",
+      "name": "MongoDB",
+      "count": 3,
+      "projectSlugs": [
+        "create-e2e-saas",
+        "event-management-application",
+        "wcareer"
+      ]
+    },
+    {
+      "name": "Mongoose",
+      "count": 2,
+      "projectSlugs": [
+        "create-e2e-saas",
+        "event-management-application"
+      ]
+    },
+    {
+      "name": "Neon",
       "count": 1,
-      "projectSlugs": ["portfolio-cms-admin"]
+      "projectSlugs": [
+        "wcareer"
+      ]
+    },
+    {
+      "name": "Pinecone",
+      "count": 1,
+      "projectSlugs": [
+        "noteforge-ai"
+      ]
     }
   ],
   "infrastructure": [
     {
       "name": "Electron",
       "count": 1,
-      "projectSlugs": ["portfolio-cms-admin"]
+      "projectSlugs": [
+        "athena-end-to-end-ai-agent"
+      ]
+    }
+  ],
+  "aiMl": [
+    {
+      "name": "Google Gemini",
+      "count": 2,
+      "projectSlugs": [
+        "athena-end-to-end-ai-agent",
+        "noteforge-ai"
+      ]
+    },
+    {
+      "name": "Google Generative AI",
+      "count": 1,
+      "projectSlugs": [
+        "wcareer"
+      ]
+    },
+    {
+      "name": "LangChain",
+      "count": 1,
+      "projectSlugs": [
+        "noteforge-ai"
+      ]
+    },
+    {
+      "name": "LangGraph",
+      "count": 1,
+      "projectSlugs": [
+        "noteforge-ai"
+      ]
+    },
+    {
+      "name": "Ollama",
+      "count": 2,
+      "projectSlugs": [
+        "athena-end-to-end-ai-agent",
+        "noteforge-ai"
+      ]
+    },
+    {
+      "name": "Whisper STT",
+      "count": 1,
+      "projectSlugs": [
+        "athena-end-to-end-ai-agent"
+      ]
+    }
+  ],
+  "devops": [],
+  "testing": [],
+  "tools": [
+    {
+      "name": "Chalk",
+      "count": 1,
+      "projectSlugs": [
+        "create-e2e-saas"
+      ]
+    },
+    {
+      "name": "Clerk",
+      "count": 2,
+      "projectSlugs": [
+        "event-management-application",
+        "wcareer"
+      ]
+    },
+    {
+      "name": "Drizzle ORM",
+      "count": 1,
+      "projectSlugs": [
+        "wcareer"
+      ]
+    },
+    {
+      "name": "FBX",
+      "count": 1,
+      "projectSlugs": [
+        "athena-end-to-end-ai-agent"
+      ]
+    },
+    {
+      "name": "npm",
+      "count": 1,
+      "projectSlugs": [
+        "create-e2e-saas"
+      ]
+    },
+    {
+      "name": "Ora",
+      "count": 1,
+      "projectSlugs": [
+        "create-e2e-saas"
+      ]
+    },
+    {
+      "name": "Puppeteer",
+      "count": 1,
+      "projectSlugs": [
+        "noteforge-ai"
+      ]
+    },
+    {
+      "name": "Razorpay",
+      "count": 1,
+      "projectSlugs": [
+        "event-management-application"
+      ]
+    },
+    {
+      "name": "Uploadthing",
+      "count": 1,
+      "projectSlugs": [
+        "event-management-application"
+      ]
+    },
+    {
+      "name": "VRM",
+      "count": 1,
+      "projectSlugs": [
+        "athena-end-to-end-ai-agent"
+      ]
+    },
+    {
+      "name": "yt-dlp",
+      "count": 1,
+      "projectSlugs": [
+        "noteforge-ai"
+      ]
     }
   ]
 }
