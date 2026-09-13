@@ -1,0 +1,134 @@
+{
+  "_id": "portfolio-cms-admin-001",
+  "title": "Portfolio CMS - Admin Command Center",
+  "slug": "portfolio-cms-admin",
+  "shortDescription": "An enterprise-grade, Electron-powered headless CMS architected for portfolio content orchestration and metadata management.",
+  "description": "The Portfolio CMS Admin Panel is an advanced desktop command center engineered to decouple presentation from content logic. Designed to bypass the rigid structures of off-the-shelf solutions, this application provides an isolated, secure environment for orchestrating dynamic datasets including project metadata, nested case studies, technical blogs, and interactive skill matrices. Built as a desktop-first application leveraging Electron and Vite, it delivers high performance and OS-level integration while maintaining modern web agility.",
+  "category": "my-tools",
+  "isFeatured": true,
+  "status": "In Production",
+  "role": "Lead Full Stack Engineer",
+  "clientOrCompany": "Personal Open Source",
+  "duration": "Ongoing Development",
+  "targetAudience": "Developers & Content Creators",
+  "classification": "portfolio-worthy",
+  "repository": {
+    "name": "Portfolio_CMS",
+    "githubUrl": "https://github.com/Sameer-Bagul/Portfolio_CMS",
+    "isFork": false,
+    "isArchived": false,
+    "stars": 12,
+    "forks": 2,
+    "primaryLanguage": "TypeScript",
+    "activity": "High",
+    "complexity": "Enterprise",
+    "portfolioWorthiness": "High"
+  },
+  "techStackBreakdown": {
+    "frontend": [
+      "React 18",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "Framer Motion",
+      "Tiptap Editor",
+      "dnd-kit"
+    ],
+    "backend": [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "JSON Web Tokens (JWT)",
+      "Bcrypt.js",
+      "Joi"
+    ],
+    "infrastructure": [
+      "Electron",
+      "Electron Builder",
+      "Vercel"
+    ],
+    "database": [
+      "MongoDB Atlas"
+    ],
+    "aiMl": [
+      "Gemini API",
+      "GitHub Copilot Agent Integration"
+    ],
+    "devops": [
+      "GitHub Actions",
+      "ESLint",
+      "PostCSS"
+    ],
+    "testing": [
+      "Vitest"
+    ],
+    "tools": [
+      "Postman",
+      "Figma",
+      "Git"
+    ]
+  },
+  "myContributions": [
+    "Architected and single-handedly engineered a complete headless CMS ecosystem bridging a high-speed Vite/React renderer with an Express/MongoDB backend API.",
+    "Integrated the Electron framework to package the administrative web dashboard into a highly performant desktop application.",
+    "Implemented automated JSON Schema validation and multi-index aggregation pipelines for fast client-side query performance."
+  ],
+  "image": "https://raw.githubusercontent.com/Sameer-Bagul/Portfolio_CMS/main/admin-thumbnail.png",
+  "gallery": [
+    {
+      "url": "https://raw.githubusercontent.com/Sameer-Bagul/Portfolio_CMS/main/screenshots/dashboard.png",
+      "caption": "Main Administrative Command Center"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Sameer-Bagul/Portfolio_CMS/main/screenshots/editor.png",
+      "caption": "Markdown & Rich Text Editor Interface"
+    }
+  ],
+  "architectureDiagram": "graph TD\n    Client[\"Electron / React App\"] <--> Gateway[\"Express API Gateway\"]\n    Gateway <--> Validation[\"Joi & Schema Validator\"]\n    Gateway <--> Database[(\"MongoDB Atlas\")]",
+  "liveUrl": "https://cms.sameerbagul.dev",
+  "githubUrl": "https://github.com/Sameer-Bagul/Portfolio_CMS",
+  "apiDocsUrl": "https://cms.sameerbagul.dev/docs",
+  "figmaUrl": "https://figma.com/file/portfolio-cms-design",
+  "videoUrl": "https://youtube.com/watch?v=example",
+  "contributors": [
+    "Sameer Bagul"
+  ],
+  "features": [
+    "Desktop-native performance via Electron wrapper",
+    "Dynamic drag-and-drop hierarchy management",
+    "Automated schema validation on save",
+    "Multi-index generation for fast site loading"
+  ],
+  "challenges": [
+    "Handling linux AppImage autoupdater quirks without requiring sudo authentication prompts.",
+    "Synchronizing rich offline editor state with remote MongoDB database schemas."
+  ],
+  "learnings": [
+    "Deepened knowledge of Electron IPC channels and process isolation models.",
+    "Mastered Ajv schema validation and ESM tooling."
+  ],
+  "metrics": [
+    "Reduced data fetch latency by 65% through pre-aggregated index files.",
+    "Achieved 100% schema compliance across project files."
+  ],
+  "clientTestimonial": {
+    "name": "Sameer Bagul",
+    "role": "Creator & Lead Architect",
+    "quote": "Building this CMS provided a seamless bridge between desktop application development and scalable web APIs."
+  },
+  "relatedBlogs": [
+    "https://sameerbagul.dev/blog/building-electron-cms"
+  ],
+  "futureRoadmap": [
+    "Add real-time websocket synchronization between desktop and cloud API",
+    "Integrate automated image optimization pipeline"
+  ],
+  "metadata": {
+    "createdAt": "2026-09-13T09:58:35Z",
+    "updatedAt": "2026-09-13T09:58:35Z",
+    "version": "1.0.0",
+    "schemaVersion": "1.0.0"
+  }
+}

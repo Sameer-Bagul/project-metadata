@@ -1,0 +1,50 @@
+{
+  "frontend": [
+    {
+      "name": "React 18",
+      "count": 1,
+      "projectSlugs": ["portfolio-cms-admin"]
+    },
+    {
+      "name": "TypeScript",
+      "count": 1,
+      "projectSlugs": ["portfolio-cms-admin"]
+    },
+    {
+      "name": "Vite",
+      "count": 1,
+      "projectSlugs": ["portfolio-cms-admin"]
+    },
+    {
+      "name": "Tailwind CSS",
+      "count": 1,
+      "projectSlugs": ["portfolio-cms-admin"]
+    }
+  ],
+  "backend": [
+    {
+      "name": "Node.js",
+      "count": 1,
+      "projectSlugs": ["portfolio-cms-admin"]
+    },
+    {
+      "name": "Express.js",
+      "count": 1,
+      "projectSlugs": ["portfolio-cms-admin"]
+    }
+  ],
+  "database": [
+    {
+      "name": "MongoDB Atlas",
+      "count": 1,
+      "projectSlugs": ["portfolio-cms-admin"]
+    }
+  ],
+  "infrastructure": [
+    {
+      "name": "Electron",
+      "count": 1,
+      "projectSlugs": ["portfolio-cms-admin"]
+    }
+  ]
+}

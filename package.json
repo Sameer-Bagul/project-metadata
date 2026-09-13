@@ -1,0 +1,24 @@
+{
+  "name": "project-metadata",
+  "version": "1.0.0",
+  "description": "Centralized schema, metadata repository, and validation tooling for portfolio projects",
+  "main": "scripts/validate.mjs",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "test": "npm run validate"
+  },
+  "keywords": [
+    "portfolio",
+    "metadata",
+    "json-schema",
+    "cms",
+    "projects"
+  ],
+  "author": "Sameer Bagul",
+  "license": "MIT",
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://portfolio-cms.sameerbagul.dev/schemas/project.schema.json",
+  "title": "ProjectMetadata",
+  "description": "Canonical schema definition for Sameer Bagul Portfolio CMS project items",
+  "type": "object",
+  "required": [
+    "_id",
+    "title",
+    "slug",
+    "shortDescription",
+    "description",
+    "category",
+    "isFeatured",
+    "status",
+    "role",
+    "techStackBreakdown",
+    "myContributions",
+    "githubUrl"
+  ],
+  "properties": {
+    "_id": {
+      "type": "string",
+      "description": "Unique identifier for the project record"
+    },
+    "title": {
+      "type": "string",
+      "description": "Public display title of the project"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "description": "URL-friendly kebab-case identifier"
+    },
+    "shortDescription": {
+      "type": "string",
+      "description": "Concise summary for cards and list views (1-2 sentences)"
+    },
+    "description": {
+      "type": "string",
+      "description": "Detailed multi-paragraph breakdown of problem solved, architecture, and engineering choices"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "saas",
+        "full-stack",
+        "ai-ml",
+        "frontend",
+        "backend",
+        "mobile",
+        "my-tools",
+        "open-source",
+        "other"
+      ],
+      "description": "Primary domain category of the project"
+    },
+    "isFeatured": {
+      "type": "boolean",
+      "description": "Whether the project should be highlighted on the main portfolio landing page"
+    },
+    "status": {
+      "type": "string",
+      "description": "Development or operational status (e.g. 'In Production', 'Completed', 'Maintained')"
+    },
+    "role": {
+      "type": "string",
+      "description": "Role held during project execution (e.g. 'Lead Full Stack Engineer')"
+    },
+    "clientOrCompany": {
+      "type": "string",
+      "description": "Organization or context under which project was created"
+    },
+    "duration": {
+      "type": "string",
+      "description": "Timeline or duration of development"
+    },
+    "targetAudience": {
+      "type": "string",
+      "description": "Intended end-users or consumers"
+    },
+    "classification": {
+      "type": "string",
+      "enum": [
+        "portfolio-worthy",
+        "secondary",
+        "practice",
+        "fork",
+        "archived",
+        "empty",
+        "unknown"
+      ],
+      "default": "portfolio-worthy",
+      "description": "Repository quality and portfolio inclusion classification"
+    },
+    "repository": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "githubUrl": { "type": "string" },
+        "isFork": { "type": "boolean" },
+        "isArchived": { "type": "boolean" },
+        "stars": { "type": "integer", "minimum": 0 },
+        "forks": { "type": "integer", "minimum": 0 },
+        "primaryLanguage": { "type": "string" },
+        "activity": { "type": "string" },
+        "complexity": { "type": "string" },
+        "portfolioWorthiness": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "techStackBreakdown": {
+      "type": "object",
+      "properties": {
+        "frontend": { "type": "array", "items": { "type": "string" } },
+        "backend": { "type": "array", "items": { "type": "string" } },
+        "infrastructure": { "type": "array", "items": { "type": "string" } },
+        "database": { "type": "array", "items": { "type": "string" } },
+        "aiMl": { "type": "array", "items": { "type": "string" } },
+        "devops": { "type": "array", "items": { "type": "string" } },
+        "testing": { "type": "array", "items": { "type": "string" } },
+        "tools": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": false
+    },
+    "myContributions": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Bullet points highlighting technical accomplishments and ownership"
+    },
+    "image": {
+      "type": "string",
+      "description": "Thumbnail or hero image URL"
+    },
+    "gallery": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["url"],
+        "properties": {
+          "url": { "type": "string" },
+          "caption": { "type": "string" }
+        }
+      }
+    },
+    "architectureDiagram": {
+      "type": "string",
+      "description": "Mermaid diagram string or image URL describing application architecture"
+    },
+    "liveUrl": {
+      "type": "string",
+      "description": "Production or live demo URL"
+    },
+    "githubUrl": {
+      "type": "string",
+      "description": "GitHub repository URL"
+    },
+    "apiDocsUrl": {
+      "type": "string",
+      "description": "API documentation URL"
+    },
+    "figmaUrl": {
+      "type": "string",
+      "description": "Figma design URL"
+    },
+    "videoUrl": {
+      "type": "string",
+      "description": "Demo video or walkthrough URL"
+    },
+    "contributors": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "features": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "challenges": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "learnings": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "metrics": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "clientTestimonial": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "role": { "type": "string" },
+        "quote": { "type": "string" }
+      }
+    },
+    "relatedBlogs": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "futureRoadmap": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" },
+        "version": { "type": "string" },
+        "schemaVersion": { "type": "string" }
+      }
+    }
+  },
+  "additionalProperties": true
+}

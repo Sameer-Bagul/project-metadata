@@ -1,0 +1,23 @@
+[
+  {
+    "_id": "portfolio-cms-admin-001",
+    "title": "Portfolio CMS - Admin Command Center",
+    "slug": "portfolio-cms-admin",
+    "shortDescription": "An enterprise-grade, Electron-powered headless CMS architected for portfolio content orchestration and metadata management.",
+    "category": "my-tools",
+    "isFeatured": true,
+    "status": "In Production",
+    "role": "Lead Full Stack Engineer",
+    "techSummary": [
+      "Electron",
+      "React 18",
+      "TypeScript",
+      "Node.js",
+      "Express.js",
+      "MongoDB"
+    ],
+    "image": "https://raw.githubusercontent.com/Sameer-Bagul/Portfolio_CMS/main/admin-thumbnail.png",
+    "liveUrl": "https://cms.sameerbagul.dev",
+    "githubUrl": "https://github.com/Sameer-Bagul/Portfolio_CMS"
+  }
+]
