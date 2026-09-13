@@ -1,0 +1,48 @@
+{
+  "_id": "event-management-application-001",
+  "title": "Event Management Application",
+  "slug": "event-management-application",
+  "shortDescription": "Full-stack ticketing and event platform built with Next.js App Router, MongoDB, and payment/auth integrations.",
+  "description": "A production-style event management platform that supports event publishing, attendee ordering flows, and organizer management. The codebase uses Next.js App Router with Server Actions, MongoDB via Mongoose, and integrations for Clerk authentication, Uploadthing media handling, and Razorpay payments.",
+  "category": "full-stack",
+  "isFeatured": true,
+  "status": "Completed",
+  "role": "Full Stack Developer",
+  "classification": "portfolio-worthy",
+  "repository": {
+    "name": "event-management-application",
+    "githubUrl": "https://github.com/Sameer-Bagul/event-management-application",
+    "isFork": false,
+    "isArchived": false,
+    "stars": 0,
+    "forks": 0,
+    "primaryLanguage": "TypeScript",
+    "activity": "Updated 2026-07-21",
+    "complexity": "High",
+    "portfolioWorthiness": "High"
+  },
+  "techStackBreakdown": {
+    "frontend": ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+    "backend": ["Next.js Server Actions", "Node.js"],
+    "infrastructure": [],
+    "database": ["MongoDB", "Mongoose"],
+    "aiMl": [],
+    "devops": [],
+    "testing": [],
+    "tools": ["Clerk", "Uploadthing", "Razorpay"]
+  },
+  "myContributions": [
+    "Built event, category, order, and user flows using typed server actions.",
+    "Integrated Clerk auth and webhook-based user synchronization.",
+    "Implemented ticket purchase and media upload integrations with external providers."
+  ],
+  "githubUrl": "https://github.com/Sameer-Bagul/event-management-application",
+  "liveUrl": "",
+  "apiDocsUrl": "",
+  "metadata": {
+    "createdAt": "2026-09-13T10:06:47Z",
+    "updatedAt": "2026-09-13T10:06:47Z",
+    "version": "1.0.0",
+    "schemaVersion": "1.0.0"
+  }
+}

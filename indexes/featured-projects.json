@@ -1,23 +1,117 @@
 [
   {
-    "_id": "portfolio-cms-admin-001",
-    "title": "Portfolio CMS - Admin Command Center",
-    "slug": "portfolio-cms-admin",
-    "shortDescription": "An enterprise-grade, Electron-powered headless CMS architected for portfolio content orchestration and metadata management.",
-    "category": "my-tools",
+    "_id": "athena-end-to-end-ai-agent-001",
+    "title": "Athena - 3D VRM AI Assistant",
+    "slug": "athena-end-to-end-ai-agent",
+    "shortDescription": "Desktop AI assistant combining Electron, Three.js VRM rendering, LangGraph orchestration, and local speech services.",
+    "category": "ai-ml",
     "isFeatured": true,
     "status": "In Production",
     "role": "Lead Full Stack Engineer",
     "techSummary": [
-      "Electron",
-      "React 18",
+      "React",
+      "Vite",
       "TypeScript",
+      "Three.js",
+      "Node.js",
+      "LangGraph",
+      "LangChain",
+      "Electron"
+    ],
+    "image": "",
+    "liveUrl": "",
+    "githubUrl": "https://github.com/Sameer-Bagul/athena-end-to-end-ai-agent"
+  },
+  {
+    "_id": "create-e2e-saas-001",
+    "title": "create-e2e-saas",
+    "slug": "create-e2e-saas",
+    "shortDescription": "NPM CLI that scaffolds a MERN authentication starter with JWT, OTP, and email verification flows.",
+    "category": "my-tools",
+    "isFeatured": true,
+    "status": "In Production",
+    "role": "Developer",
+    "techSummary": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
       "Node.js",
       "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "npm"
+    ],
+    "image": "",
+    "liveUrl": "",
+    "githubUrl": "https://github.com/Sameer-Bagul/create-e2e-saas"
+  },
+  {
+    "_id": "event-management-application-001",
+    "title": "Event Management Application",
+    "slug": "event-management-application",
+    "shortDescription": "Full-stack ticketing and event platform built with Next.js App Router, MongoDB, and payment/auth integrations.",
+    "category": "full-stack",
+    "isFeatured": true,
+    "status": "Completed",
+    "role": "Full Stack Developer",
+    "techSummary": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Next.js Server Actions",
+      "Node.js",
+      "MongoDB",
+      "Mongoose"
+    ],
+    "image": "",
+    "liveUrl": "",
+    "githubUrl": "https://github.com/Sameer-Bagul/event-management-application"
+  },
+  {
+    "_id": "noteforge-ai-001",
+    "title": "NoteForge AI",
+    "slug": "noteforge-ai",
+    "shortDescription": "AI pipeline that converts YouTube video content into notes, mind maps, and quiz-oriented study material.",
+    "category": "ai-ml",
+    "isFeatured": true,
+    "status": "In Production",
+    "role": "Lead Full Stack Engineer",
+    "techSummary": [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "Pinecone",
+      "LangChain"
+    ],
+    "image": "",
+    "liveUrl": "",
+    "githubUrl": "https://github.com/Sameer-Bagul/NoteForge-AI"
+  },
+  {
+    "_id": "wcareer-001",
+    "title": "WCareer",
+    "slug": "wcareer",
+    "shortDescription": "AI-focused career platform combining MERN, Next.js interview tooling, and Python services for mock interviews and guidance.",
+    "category": "ai-ml",
+    "isFeatured": true,
+    "status": "In Production",
+    "role": "Lead Full Stack Engineer",
+    "techSummary": [
+      "React",
+      "Vite",
+      "Next.js",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "FastAPI",
       "MongoDB"
     ],
-    "image": "https://raw.githubusercontent.com/Sameer-Bagul/Portfolio_CMS/main/admin-thumbnail.png",
-    "liveUrl": "https://cms.sameerbagul.dev",
-    "githubUrl": "https://github.com/Sameer-Bagul/Portfolio_CMS"
+    "image": "",
+    "liveUrl": "",
+    "githubUrl": "https://github.com/Sameer-Bagul/Wcareer"
   }
 ]

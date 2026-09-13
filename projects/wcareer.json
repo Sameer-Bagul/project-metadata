@@ -1,0 +1,48 @@
+{
+  "_id": "wcareer-001",
+  "title": "WCareer",
+  "slug": "wcareer",
+  "shortDescription": "AI-focused career platform combining MERN, Next.js interview tooling, and Python services for mock interviews and guidance.",
+  "description": "WCareer is a multi-module platform that combines a MERN-style main app, a Next.js interview module, and Python-based AI services. The repository includes distinct client/server modules and an interview-specific frontend with Clerk/Drizzle integration.",
+  "category": "ai-ml",
+  "isFeatured": true,
+  "status": "In Production",
+  "role": "Lead Full Stack Engineer",
+  "classification": "portfolio-worthy",
+  "repository": {
+    "name": "Wcareer",
+    "githubUrl": "https://github.com/Sameer-Bagul/Wcareer",
+    "isFork": false,
+    "isArchived": false,
+    "stars": 2,
+    "forks": 4,
+    "primaryLanguage": "JavaScript",
+    "activity": "Updated 2026-07-21",
+    "complexity": "Enterprise",
+    "portfolioWorthiness": "High"
+  },
+  "techStackBreakdown": {
+    "frontend": ["React", "Vite", "Next.js", "Tailwind CSS"],
+    "backend": ["Node.js", "Express.js", "FastAPI"],
+    "infrastructure": [],
+    "database": ["MongoDB", "Neon"],
+    "aiMl": ["Google Generative AI"],
+    "devops": [],
+    "testing": [],
+    "tools": ["Clerk", "Drizzle ORM"]
+  },
+  "myContributions": [
+    "Designed a multi-module architecture spanning web app, interview module, and AI service layers.",
+    "Implemented authentication, data flows, and AI-assisted interview capabilities.",
+    "Built and documented the core product modules and integration points."
+  ],
+  "githubUrl": "https://github.com/Sameer-Bagul/Wcareer",
+  "liveUrl": "",
+  "apiDocsUrl": "",
+  "metadata": {
+    "createdAt": "2026-09-13T10:06:47Z",
+    "updatedAt": "2026-09-13T10:06:47Z",
+    "version": "1.0.0",
+    "schemaVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_id": "noteforge-ai-001",
+  "title": "NoteForge AI",
+  "slug": "noteforge-ai",
+  "shortDescription": "AI pipeline that converts YouTube video content into notes, mind maps, and quiz-oriented study material.",
+  "description": "NoteForge AI is a full-stack application with a React frontend and a TypeScript/Express backend focused on long-form video understanding. It uses a hybrid LLM approach with LangChain/LangGraph orchestration, queueing, and transcript processing to generate structured learning artifacts.",
+  "category": "ai-ml",
+  "isFeatured": true,
+  "status": "In Production",
+  "role": "Lead Full Stack Engineer",
+  "classification": "portfolio-worthy",
+  "repository": {
+    "name": "NoteForge-AI",
+    "githubUrl": "https://github.com/Sameer-Bagul/NoteForge-AI",
+    "isFork": false,
+    "isArchived": false,
+    "stars": 0,
+    "forks": 0,
+    "primaryLanguage": "TypeScript",
+    "activity": "Updated 2026-09-08",
+    "complexity": "Enterprise",
+    "portfolioWorthiness": "High"
+  },
+  "techStackBreakdown": {
+    "frontend": ["React", "TypeScript", "Vite", "Tailwind CSS"],
+    "backend": ["Node.js", "Express.js", "TypeScript"],
+    "infrastructure": [],
+    "database": ["Pinecone"],
+    "aiMl": ["LangChain", "LangGraph", "Ollama", "Google Gemini"],
+    "devops": [],
+    "testing": [],
+    "tools": ["Puppeteer", "yt-dlp"]
+  },
+  "myContributions": [
+    "Engineered the end-to-end YouTube-to-notes processing workflow.",
+    "Implemented hybrid LLM routing and queue-based generation orchestration.",
+    "Built the React interface and backend APIs for generation and export flows."
+  ],
+  "githubUrl": "https://github.com/Sameer-Bagul/NoteForge-AI",
+  "liveUrl": "",
+  "apiDocsUrl": "",
+  "metadata": {
+    "createdAt": "2026-09-13T10:06:47Z",
+    "updatedAt": "2026-09-13T10:06:47Z",
+    "version": "1.0.0",
+    "schemaVersion": "1.0.0"
+  }
+}

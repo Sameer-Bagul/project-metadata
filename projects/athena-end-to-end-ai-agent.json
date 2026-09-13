@@ -1,0 +1,48 @@
+{
+  "_id": "athena-end-to-end-ai-agent-001",
+  "title": "Athena - 3D VRM AI Assistant",
+  "slug": "athena-end-to-end-ai-agent",
+  "shortDescription": "Desktop AI assistant combining Electron, Three.js VRM rendering, LangGraph orchestration, and local speech services.",
+  "description": "Athena is a desktop-first AI assistant that runs as an Electron application with a React/Vite renderer and a modular backend. The project combines a 3D avatar pipeline (VRM + FBX animation), local STT/TTS services, and a LangGraph-driven tool workflow for web search, weather, timers, and document-based retrieval.",
+  "category": "ai-ml",
+  "isFeatured": true,
+  "status": "In Production",
+  "role": "Lead Full Stack Engineer",
+  "classification": "portfolio-worthy",
+  "repository": {
+    "name": "athena-end-to-end-ai-agent",
+    "githubUrl": "https://github.com/Sameer-Bagul/athena-end-to-end-ai-agent",
+    "isFork": false,
+    "isArchived": false,
+    "stars": 0,
+    "forks": 0,
+    "primaryLanguage": "TypeScript",
+    "activity": "Updated 2026-09-08",
+    "complexity": "Enterprise",
+    "portfolioWorthiness": "High"
+  },
+  "techStackBreakdown": {
+    "frontend": ["React", "Vite", "TypeScript", "Three.js"],
+    "backend": ["Node.js", "LangGraph", "LangChain"],
+    "infrastructure": ["Electron"],
+    "database": [],
+    "aiMl": ["Google Gemini", "Ollama", "Whisper STT"],
+    "devops": [],
+    "testing": [],
+    "tools": ["VRM", "FBX"]
+  },
+  "myContributions": [
+    "Built the Electron + React desktop architecture and IPC integration.",
+    "Implemented the 3D avatar runtime with VRM/FBX animation handling.",
+    "Integrated LangGraph-driven tool routing and local speech services."
+  ],
+  "githubUrl": "https://github.com/Sameer-Bagul/athena-end-to-end-ai-agent",
+  "liveUrl": "",
+  "apiDocsUrl": "",
+  "metadata": {
+    "createdAt": "2026-09-13T10:06:47Z",
+    "updatedAt": "2026-09-13T10:06:47Z",
+    "version": "1.0.0",
+    "schemaVersion": "1.0.0"
+  }
+}
